@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- Navbar Section -->
+
+    <nav class="navbar">
+        <a href="/" class="navbar__logo">AFRIVELE</a>
+        <div class="navbar__bars">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="navbar__menu">
+            <a href="/" class="navbar__menu--links">Home</a>
+            <a href="/" class="navbar__menu--links">My Skills</a>
+            <a href="/" class="navbar__menu--links">Projects</a>
+            <a href="/" class="navbar__menu--links" id="button">Contact Us</a>
+        </div>
+    </nav> 
+
+
+<!-- Body Section -->
+
+    <div class="hero">
+        <div class="hero__container">
+            <div class="hero__container--left">
+                <h1>Got a product ?</h1>
+                <h3>Let's make it global!</h3>
+                <p>We are one-click away</p>
+                <button class="hero__container--btn">
+                    <a href="#">Contact Us</a>
+                </button>
+            </div>
+            <div class="hero__container--right">
+                <img src="./styles/images/cube.jpg" alt="pic" class="hero__container--img" />
+            </div>
+        </div>
+
+        <section class="skills">
+            <div class="skills-container">
+                <ul>
+                    <li class="transition2">
+                        <div class="icon-container one">
+                            <img src="styles/images/icons8-bungalow-40.png" alt="UI/UX Icon">
+                        </div>
+                        <p class="skill-title">UI/UX Design</p>
+                        <p class="featured-desc skill-desc"> Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Ea, veritatis?
+                        </p>
+                    </li>
+                    <li class="transition2">
+                        <div class="icon-container two">
+                            <img src="styles/images/icons8-stethoscope-64.png" alt="UI/UX Icon">
+                        </div>
+                        <p class="skill-title">Frontend Design</p>
+                        <p class="featured-desc skill-desc"> Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Ea, veritatis?
+                        </p>
+                    </li>
+                    <li class="transition2">
+                        <div class="icon-container three">
+                            <img src="styles/images/icons8-truck-40.png" alt="UI/UX Icon">
+                        </div>
+                        <p class="skill-title">Full Stack</p>
+                        <p class="featured-desc skill-desc"> Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Ea, veritatis?
+                        </p>
+                    </li>
+    
+                </ul>
+            </div>
+        </section>
+
+        <div class="second">
+            <div class="skill2">
+                <div class="card">
+                    <div class="content">
+                        <h2><>#</h2>
+                        <h3>HTML and CSS</h3>
+                        <p>Lorem ipsum dolor 
+                            sit amet, consectetur adipisicing elit. Voluptas, minus maiores, 
+                            harum magni eveniet? Explicabo laborum, qui eligendi voluptatum 
+                            tempora architecto?
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="content">
+                        <h2>Php</h2>
+                        <h3>Laravel</h3>
+                        <p>Lorem ipsum dolor 
+                            sit amet, consectetur adipisicing elit. Voluptas, minus maiores, 
+                            harum magni eveniet? Explicabo laborum, qui eligendi voluptatum 
+                            tempora architecto?
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="content">
+                        <h2>F Xd</h2>
+                        <h3>Figma and Adobe</h3>
+                        <p>Lorem ipsum dolor 
+                            sit amet, consectetur adipisicing elit. Voluptas, minus maiores, 
+                            harum magni eveniet? Explicabo laborum, qui eligendi voluptatum 
+                            tempora architecto?
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+    </div>
+<script type="text/javascript" src="vanila-tilt.js"></script>
+<script>
+    VanillaTilt.init(documents.querySelectorAll(".card"),{
+        max:25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+    });
+</script>
+</body>
+</html>
