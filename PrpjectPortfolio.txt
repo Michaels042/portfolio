@@ -1,4 +1,0 @@
-Frontend
-Figma
-Laravel
-Vuejs
